@@ -11,7 +11,7 @@ B --> E["OP3"]
 
 ```mermaid
 graph TD;
-A[Inicio] --> {Nota >6};
+A[Inicio] --> B{Nota >6};
 B --> |SIM| C[Aprovado];
 B --> |NAO| D[Reprovado];
 ```
