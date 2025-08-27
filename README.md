@@ -15,3 +15,10 @@ A[Inicio] --> B{Nota >6};
 B --> |SIM| C[Aprovado];
 B --> |NAO| D[Reprovado];
 ```
+```mermaid
+gantt
+  title Exemplo de Grafico de Gantt
+  dateFormat YYYY-MM-DD
+  section 1ºBimestre
+  section 2º Bimestre
+```
