@@ -27,7 +27,7 @@ gantt
   4º Bimestre em Andamento:crit, a4, after a3, 60d
 ```
 
-´´´mermaid
+```mermaid
 graph TD
    subgraph Matriz
 A1["UX C3"]:::branco --> A2["C20"]:::amarelo --> A3["V50"]:::laranja --> A4["V100"]:::vermelho
@@ -39,4 +39,4 @@ classDef branco fill:#fff, stroke:#000, stroke-width:1px;
 classDef amarelo fill:#FFD8D, stroke:#000, stroke-width:1px;
 classDef laranja fill:#FFA233, stroke:#000, stroke-width:1px;
 classDef vermelho fill:#E64C3C, stroke:#000, stroke-width:1px;
-´´´
+```
